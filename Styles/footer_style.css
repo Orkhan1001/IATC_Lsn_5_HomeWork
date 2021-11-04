@@ -1,0 +1,26 @@
+/*............................................Footer...........................................*/
+
+.asus_footer{
+    background-color: rgb(50, 100, 100);
+    min-height: 200px;
+    width: 80%;
+    margin-left: 11%;
+    border-radius: 15px;
+}
+.asus_footer ul{
+    padding: 20px;
+}
+.asus_footer li{
+    background-color: white;
+    color: black;
+    width: 13%;
+    margin-left: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+    list-style-type: none;
+    float: left;
+}
+.asus_footer li img{
+    height: 100px;
+}

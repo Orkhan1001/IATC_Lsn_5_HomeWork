@@ -1,0 +1,81 @@
+/*..........................................Body............................................*/
+body{
+    background-color: darkslategrey;
+    color: white;
+    margin: 10px;
+    padding: 0px;
+    font-family: Verdana;
+}
+
+/*...........................................Navbar Style....................................*/
+
+.asus_main_nav{
+    background-color: black;
+    height: 70px;
+    border-radius: 10px;
+    
+}
+.asus_logo{
+    height: 100%;
+    padding: 10px;
+    padding-left: 50px;
+    float: left;
+}
+.asus_logo img{
+    height: 50px;
+    border-radius: 5px;
+}
+
+.asus_menu{
+    margin-left: 50px;
+    padding: 10px;
+    float: left;
+}
+
+.asus_menu_lists li{
+    margin-left: 50px;
+    list-style-type: none;
+    border-bottom: 2px solid transparent;
+    float: left;
+}
+.asus_menu_lists li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*.......................................Drop Down Menu Style...............................*/
+
+.asus_dopdown_menu{
+    background-color: black;
+    min-height: 80px;
+    width: 110px;
+    margin-top: 1px;
+    margin-left: -1%;
+    border-radius: 13px;
+    font-size: 15px;
+    /* opacity: 0.95; */
+    position: absolute;
+    display: none;
+}
+
+.asus_menu_lists li:hover{
+    border-bottom: 2px solid white;
+    transition: 0.7s;
+}
+
+.asus_menu_lists li:hover .asus_dopdown_menu{
+    display: block;
+}
+.asus_dopdown_menu:hover{
+    display: block;
+}
+.asus_drop_down_menu_lists{
+    margin: 0px;
+    padding: 5px;
+    margin-top: 20px;
+}
+.asus_drop_down_menu_lists li{
+    margin: 5px;
+    padding: 0px;
+    float: none;
+}

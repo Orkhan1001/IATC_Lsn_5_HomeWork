@@ -1,0 +1,19 @@
+.main_page_left_side{
+    min-height: 80%;
+    width: 50%;
+    float: left;
+}
+
+.main_page_right_side{
+    min-height: 80%;
+    width: 40%;
+    float: right;
+}
+.main_page_right_side img{
+    width: 110%;
+}
+
+.main_page_right_side .img_2{
+    margin-left: 15%;
+    width: 80%;
+}

@@ -1,0 +1,42 @@
+
+/*.......................................Main Page Style.....................................*/
+.main_page{
+    height: 800px;
+    margin-top: 20px;
+    padding: 50px;
+}
+
+/*....................................Left Side of Main Page................................*/
+.main_page_left_side{
+    min-height: 80%;
+    width: 60%;
+    text-align: justify;
+    float: left;
+}
+
+/*....................................Right Side of Main Page................................*/
+.main_page_right_side{
+    min-height: 80%;
+    width: 35%;
+    float: right;
+}
+.main_page_table{
+    width: 100%;
+}
+.main_page_table, th, td{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.main_page_table th, .main_page_table td{
+    font-size: 14px;
+    font-family: sans-serif;
+}
+.main_page_table img{
+    width: 100%;
+}
+.main_page_table tr:nth-child(odd){
+    background-color: rgb(26, 51, 51);
+}
+
